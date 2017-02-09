@@ -1,0 +1,49 @@
+.form-control{
+    border-radius:8px;
+    padding-left: 100%;
+}
+.navbar{
+    background: transparent;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.navbar-brand{
+    color:white;
+    padding-left:20%;
+    font-family: Microsoft sans-serif;
+    font-size:35px;
+    padding-top: 5%;
+}
+.form-group{
+    margin-bottom:-12px;
+}
+#logout{
+    color: white;
+    padding-left: 90%;
+    font-family: Micro;
+    padding-top: 0.5%;
+    font-family: Microsoft sans-serif;
+    font-size:30px;
+}
+.glyphicon-off{
+    font-size:13px;
+}
+body{
+    background: url('tss1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.row{
+    width:60%;
+}
+#textToSpeechLogo{
+    height:100px;
+    width:300px;
+    float:left;
+    margin-left:30px;
+    margin-top:5px;
+}
+video{
+    margin-left:-160px;
+    margin-top:50px;
+}

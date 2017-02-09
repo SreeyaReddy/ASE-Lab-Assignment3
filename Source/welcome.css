@@ -1,0 +1,49 @@
+.navbar{
+    background: transparent;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.navbar-brand{
+    color:white;
+    padding-left:38%;
+    font-family: Microsoft sans-serif;
+    font-size:35px;
+}
+#logout{
+    color: white;
+    padding-left: 35%;
+    font-family: Micro;
+    padding-top: 1.5%;
+    font-family: Microsoft sans-serif;
+    font-size:30px;
+}
+.glyphicon-off{
+    font-size:13px;
+}
+body{
+    background: url('background2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.row{
+    width:60%;
+    margin-left:20%;
+    margin-top:5%;
+}
+.apiClass{
+    margin-top:10px;
+}
+.btn{
+    font-size:30px;
+    font-family:"Microsoft Sans Serif";
+}
+#faceDetection,#textToSpeech,#barCodeScanner{
+    padding:20px;
+}
+#spanFaceDetectionHeading,#spanTextToSpeechHeading,#spanBarCodeHeading{
+    font-weight:bold;
+    font-size:50px;
+}
+.intro{
+    font-size:14px
+}

@@ -1,0 +1,32 @@
+.row{
+    margin-left:25%;
+    margin-right:0px;
+    width:50%;
+    margin-top:5%;
+    padding:3%;
+    border-radius:10px;
+    border:transparent;
+    background:transparent;
+}
+.btn-fb {
+    color: transparent;
+    background-color: dodgerblue;
+}
+.btn-tw {
+    color: white;
+    background: dodgerblue;
+    margin-top:-15px;
+    font-weight:bold;
+}
+span#loginHeading {
+    font-size: 20px;
+    font-family: Microsoft sans-serif;
+}
+body{
+    background: url('login.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.social-buttons {
+    margin-top: 25px;
+}

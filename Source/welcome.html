@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="" >
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootswatch/3.1.1/readable/bootstrap.min.css">
+    <link rel="stylesheet" href="welcome.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.4/angular.min.js" type="application/javascript"></script>
+</head>
+
+<body>
+<nav class="navbar navbar-light bg-faded">
+    <h1 class="navbar-brand m-b-0" style="padding-left: 600px">Welcome
+    </h1>
+    <a href="login1.html" class="btn btn-link" id="logout">Logout
+        <span >
+                <i class="glyphicon glyphicon-off"></i>
+            </span></a>
+</nav>
+<div class="row">
+    <div class="col-md-12">
+        <div class="apiClass">
+            <span id="spanFaceDetectionHeading" style="color: white">Face Detection:</span>
+
+            <button type="submit" class="btn btn-primary" id="faceDetection" onclick="location.href='fd.html'" class="btn btn-primary">Face Detection</button>
+        </div>
+        <div class="apiClass">
+            <span id="spanTextToSpeechHeading" style="color: white">Text to Speech:</span>
+
+            <button type="submit" class="btn btn-primary" id="textToSpeech" onclick="location.href='text-to-speech.html'" class="btn btn-primary">Text to Speech</button>
+        </div>
+        <div class="apiClass">
+            <span id="spanBarCodeHeading" style="color: white">Barcode Scanner:</span>
+
+            <button type="submit" class="btn btn-primary" id="barCodeScanner" onclick="location.href='bs.html'" class="btn btn-primary">Barcode Scanner</button>
+        </div>
+    </div>
+</div>
+</body>
+</html>
